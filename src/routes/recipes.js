@@ -11,9 +11,10 @@ let recipes = [
       '50g pecorino cheese',
       '50g parmesan',
       'Black pepper',
-      'Salt'
+      'Salt',
     ],
-    instructions: 'Boil the spaghetti. Fry the pancetta until crispy. Beat the eggs and mix with cheese. Combine everything and season with black pepper and salt.'
+    instructions:
+      'Boil the spaghetti. Fry the pancetta until crispy. Beat the eggs and mix with cheese. Combine everything and season with black pepper and salt.',
   },
   {
     title: 'Chicken Curry',
@@ -26,9 +27,10 @@ let recipes = [
       '2 tbsp curry powder',
       '400ml coconut milk',
       'Salt',
-      'Oil'
+      'Oil',
     ],
-    instructions: 'Sauté onions, garlic, and ginger. Add tomatoes and cook until soft. Add chicken and curry powder, cook until chicken is done. Add coconut milk and simmer.'
+    instructions:
+      'Sauté onions, garlic, and ginger. Add tomatoes and cook until soft. Add chicken and curry powder, cook until chicken is done. Add coconut milk and simmer.',
   },
   {
     title: 'Chocolate Cake',
@@ -40,10 +42,11 @@ let recipes = [
       '50g cocoa powder',
       '2 tsp baking powder',
       '1 tsp vanilla extract',
-      '100ml milk'
+      '100ml milk',
     ],
-    instructions: 'Preheat oven to 180°C. Mix dry ingredients. Beat butter and sugar until creamy. Add eggs one at a time, then vanilla. Combine wet and dry ingredients, add milk. Bake for 30 minutes.'
-  }
+    instructions:
+      'Preheat oven to 180°C. Mix dry ingredients. Beat butter and sugar until creamy. Add eggs one at a time, then vanilla. Combine wet and dry ingredients, add milk. Bake for 30 minutes.',
+  },
 ];
 
 router.post('/', (req, res) => {
